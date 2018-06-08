@@ -1,0 +1,14 @@
+{
+  "name": "Example Shift Integration App",
+  "description": "A simple example that shows how to create an application to integration with Shift",
+  "repository": "https://github.com/shiftio/shift-integration-app-example",
+  "logo": "https://shift.io/images/logo.svg",
+  "keywords": ["shift", "node", "express"],
+  "success_url": "/next-steps",
+  "env": {
+    "SLACK_WEBHOOK_URL": {
+      "description": "The webhook URL where events will be posted",
+      "value": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK/PATH"
+    }
+  }
+}
